@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio08 {
+public class Exercicio08 {
 
 	public static void main(String[] args) {
 		
@@ -16,6 +16,8 @@ public class exercicio08 {
 		double salarioMensal = valor*hora;
 		
 		System.out.println("Seu salário mensal: " + salarioMensal);
+		
+		scan.close();
 	}
 
 }

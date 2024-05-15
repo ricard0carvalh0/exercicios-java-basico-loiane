@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio10 {
+public class Exercicio10 {
 
 	public static void main(String[] args) {
 		
@@ -14,7 +14,8 @@ public class exercicio10 {
 		double farenheit = (celsius*1.8)+32;
 		
 		System.out.println("Convertendo para Farenheit: " + farenheit);
-
+		
+		scan.close();
 	}
 
 }

@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio12 {
+public class Exercicio12 {
 
 	public static void main(String[] args) {
 		
@@ -14,7 +14,8 @@ public class exercicio12 {
 		double pesoIdeal = (72.7*altura)-58;
 		
 		System.out.println("O peso ideal dessa pessoa é: " + pesoIdeal);
-
+		
+		scan.close();
 	}
 
 }

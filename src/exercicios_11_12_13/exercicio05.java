@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio05 {
+public class Exercicio05 {
 
 	public static void main(String[] args) {
 		
@@ -15,7 +15,8 @@ public class exercicio05 {
 		int centimetros = metros*100;
 		
 		System.out.println(metros + " em centímetros: " + centimetros);
-
+		
+		scan.close();
 	}
 
 }

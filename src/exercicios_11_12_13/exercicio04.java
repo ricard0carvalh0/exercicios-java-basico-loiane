@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio04 {
+public class Exercicio04 {
 
 	public static void main(String[] args) {
 		
@@ -20,7 +20,8 @@ public class exercicio04 {
 		double media = (nota1+nota2+nota3+nota4)/4;
 		
 		System.out.println("Média do aluno: " + media);
-
+		
+		scan.close();
 	}
 
 }

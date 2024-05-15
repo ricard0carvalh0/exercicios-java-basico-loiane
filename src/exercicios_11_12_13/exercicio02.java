@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio02 {
+public class Exercicio02 {
 
 	public static void main(String[] args) {
 		
@@ -12,6 +12,8 @@ public class exercicio02 {
 		int numero = scan.nextInt();
 		
 		System.out.println("O número digitado foi: " + numero);
+		
+		scan.close();
 	}
-
+	
 }

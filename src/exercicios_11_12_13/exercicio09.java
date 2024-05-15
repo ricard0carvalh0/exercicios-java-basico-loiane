@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio09 {
+public class Exercicio09 {
 
 	public static void main(String[] args) {
 		
@@ -14,6 +14,8 @@ public class exercicio09 {
 		double celsius = (5*(farenheit-32)/9);
 		
 		System.out.println("Convertendo para Celsius: " + celsius);
+		
+		scan.close();
 	}
 
 }

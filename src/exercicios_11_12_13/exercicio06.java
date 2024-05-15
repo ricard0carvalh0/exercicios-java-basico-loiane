@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio06 {
+public class Exercicio06 {
 
 	public static void main(String[] args) {
 		
@@ -15,7 +15,8 @@ public class exercicio06 {
 		double area = 3.14*(raio*raio);
 		
 		System.out.println("A área desse circulo é: " + area);
-
+		
+		scan.close();
 	}
 
 }

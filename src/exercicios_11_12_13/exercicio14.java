@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio14 {
+public class Exercicio14 {
 
 	public static void main(String[] args) {
 		
@@ -22,7 +22,8 @@ public class exercicio14 {
 			System.out.println("Excesso: " + excesso + "(ZERO)");
 			System.out.println("Multa: " + multa + "R$(ZERO R$)");
 		}
-
+		
+		scan.close();
 	}
 
 }

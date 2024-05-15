@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio15 {
+public class Exercicio15 {
 	
 	public static void main(String[] args) {
 		
@@ -24,5 +24,7 @@ public class exercicio15 {
 		System.out.println("Valor descontado para o INSS: " + inss);
 		System.out.println("Valor descontado para o Sindicato: " + sindicato);
 		System.out.println("Salário Líquido: " + salarioLiquido);
+		
+		scan.close();
 	}
 }

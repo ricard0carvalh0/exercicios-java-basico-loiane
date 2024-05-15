@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio03 {
+public class Exercicio03 {
 	
 	public static void main(String[] args) {
 		
@@ -16,5 +16,7 @@ public class exercicio03 {
 		
 		int soma = numero1 + numero2;
 		System.out.println("A soma desses dois npumeros é: " + soma);
+		
+		scan.close();
 	}
 }

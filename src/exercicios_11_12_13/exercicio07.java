@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio07 {
+public class Exercicio07 {
 
 	public static void main(String[] args) {
 		
@@ -18,7 +18,8 @@ public class exercicio07 {
 		
 		System.out.println("A área desse quadrado é: " + area);
 		System.out.println("O dobro dessa mesma área é: " + dobroArea);
-
+		
+		scan.close();
 	}
 
 }

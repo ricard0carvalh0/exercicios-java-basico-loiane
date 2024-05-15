@@ -2,7 +2,7 @@ package exercicios_11_12_13;
 
 import java.util.Scanner;
 
-public class exercicio13 {
+public class Exercicio13 {
 
 	public static void main(String[] args) {
 		
@@ -36,6 +36,8 @@ public class exercicio13 {
 			}
 			System.out.println("Peso ideal: " + pesoIdeal);
 		}
+		
+		scan.close();
 	}
 
 }
