@@ -1,4 +1,4 @@
-package exercicios_11_12_13;
+package exercicios_aulas_11_12_13;
 
 public class Exercicio01 {
 
